@@ -18,11 +18,11 @@ export default function Home() {
       <div className=" flex min-w-[40%] flex-col gap-8 items-center md:items-start">
         <h2 className="text-5xl md:text-6xl font-bold pb-6">Happening now</h2>
         <h4 className=" text-2xl md:text-3xl font-bold">Join today.</h4>
-        <Button className=" font-bold" variant={"secondary"}>
+        <Button className=" font-bold min-w-64" variant={"secondary"}>
           Create account
         </Button>
         <p className=" font-bold pt-6">Already have an account?</p>
-        <Button className=" text-blue-500  font-bold hover:bg-black">
+        <Button className=" text-blue-500  font-bold hover:bg-black min-w-64">
           Sign in
         </Button>
       </div>
